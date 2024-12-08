@@ -1,4 +1,3 @@
-const dotenv = require('dotenv');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken')
 const { getUserByEmail, createUser } = require('../config/db/users')
